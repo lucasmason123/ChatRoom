@@ -44,7 +44,6 @@ class WebSocketServer
             Console.WriteLine("Se produjo una excepción no controlada:");
             Console.WriteLine(ex.ToString());
         }
-        
     }
 
     static async Task ProcessWebSocketRequest(HttpListenerContext context)
@@ -86,7 +85,6 @@ class WebSocketServer
                 Console.WriteLine(ex.ToString());
                 break;
             }
-            
         }
 
         try
@@ -138,7 +136,6 @@ class WebSocketServer
             }
         }
     }
-
 
     static async Task SendInitialMessage(WebSocket webSocket)
     {

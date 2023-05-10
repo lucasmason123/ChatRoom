@@ -44,7 +44,6 @@ class WebSocketClient
                 Console.WriteLine("Se produjo una excepción durante la conexión:");
                 Console.WriteLine(ex.ToString());
             }
-
         }
     }
 
